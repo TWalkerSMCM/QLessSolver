@@ -1,0 +1,48 @@
+
+.loading-container {
+    text-align: center;
+    margin: auto;
+}
+
+.rolling-dice {
+    width: 10vh;
+    height: 10vh;
+    perspective: 1000px;
+}
+
+.dice {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: roll 3s linear infinite;
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 209, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    font-weight: bold;
+    border: 2px solid rgb(183, 167, 141);
+    position: absolute;
+}
+
+
+.face:nth-child(1) { transform: rotateY(90deg) translateZ(5vh); }
+.face:nth-child(2) { transform: rotateY(-90deg) translateZ(5vh); }
+.face:nth-child(3) { transform: rotateY(180deg) translateZ(5vh); }
+.face:nth-child(4) { transform: rotateY(0deg) translateZ(5vh); }
+.face:nth-child(5) { transform: rotateX(90deg) translateZ(5vh); } 
+.face:nth-child(6) { transform: rotateX(-90deg) translateZ(5vh); }
+
+@keyframes roll {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}

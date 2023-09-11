@@ -1,0 +1,81 @@
+/* src/ScrabbleGame.css */
+.scrabble-game {
+  margin: 20px;
+}
+
+.form-container {
+  margin: 20px;
+  margin-bottom: 20px;
+
+}
+
+.scrabble-form {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns */
+  max-width: fit-content; /* Adjust the container width as needed */
+  margin: 0 auto; /* Center the grid horizontally */
+}
+
+input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 2px;
+}
+
+.tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.die-input {
+  -webkit-box-sizing: border-box;
+  overflow: visible;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  /* font-size: 21px; */
+  font-weight: bold;
+  border: 2px solid rgb(183, 167, 141);
+  border-radius: 5px;
+  background-color: rgb(236, 209, 165);
+  color: rgb(46, 42, 38);
+}
+
+.die-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.solve-button {
+  margin: 5px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(183, 167, 141);
+  background-color: rgb(236, 209, 165);
+  color: rgb(46, 42, 38);
+  font-size: 2vh;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.solve-button:disabled {
+  background-color: rgb(206, 206, 206);
+  color: rgb(46, 42, 38);
+}
+
+.dictionary-select {
+  margin-top: 20px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(183, 167, 141);
+  background-color: rgb(236, 209, 165);
+  color: rgb(46, 42, 38);
+  font-size: 2vh;
+  font-weight: bold;
+  cursor: pointer;
+}
