@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/QLessSolver/static/css/main.ef63cea1.css",
+    "main.js": "/QLessSolver/static/js/main.682864c5.js",
+    "static/media/AsapCondensed-SemiBold.ttf": "/QLessSolver/static/media/AsapCondensed-SemiBold.18a180af9867703e20a0.ttf",
+    "index.html": "/QLessSolver/index.html",
+    "main.ef63cea1.css.map": "/QLessSolver/static/css/main.ef63cea1.css.map",
+    "main.682864c5.js.map": "/QLessSolver/static/js/main.682864c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef63cea1.css",
+    "static/js/main.682864c5.js"
+  ]
+}
